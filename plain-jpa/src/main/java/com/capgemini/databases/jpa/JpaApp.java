@@ -6,6 +6,8 @@ import javax.persistence.Persistence;
 
 import org.apache.log4j.Logger;
 
+import com.capgemini.databases.jpa.entity.EmployeesEntity;
+
 /**
  * Hello world!
  *

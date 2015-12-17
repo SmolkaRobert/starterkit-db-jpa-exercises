@@ -1,6 +1,6 @@
 package com.capgemini.databases.jpa;
 
-import junit.framework.Assert;
+import com.capgemini.databases.jpa.entity.EmployeesEntity;
 
 /**
  * Unit test for simple App.

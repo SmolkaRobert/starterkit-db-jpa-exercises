@@ -27,14 +27,14 @@ public class App
     public static void main( String[] args ) throws Exception
     {
     	String tableName;
-    	int fromRowIdx = 1;
-    	int toRowIdx = 99;
+    	int fromRowIdx = 2;
+    	int toRowIdx = 3;
     	
 //    	for H2 Database
-//    	tableName = "myTab";
+    	tableName = "myTab";
     	
 //    	for Mysql Database
-    	tableName = "employees";
+//    	tableName = "employees";
     	
 		tablePrintService.printTable(tableName , fromRowIdx, toRowIdx);
     }

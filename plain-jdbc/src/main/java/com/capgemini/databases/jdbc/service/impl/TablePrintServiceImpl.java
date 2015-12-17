@@ -15,7 +15,7 @@ public class TablePrintServiceImpl implements TablePrintService {
 		Connection connection = getConnectionToMysqlDatabase();
 		
 		Statement statement = connection.createStatement();
-		//TODO RSmolka this is only for Mysql DB; consider merging with connection method
+		//TODO RSmolka only needed for the Mysql DB; consider merging with Mysql connection method
 		statement.executeQuery("USE evilcompany_db");
 
 		String queryToPrint = "SELECT * FROM " + tableName;
